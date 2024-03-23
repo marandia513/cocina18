@@ -1,0 +1,70 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+.encabezado {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el menú de navegación */
+.menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilos para los artículos */
+article {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para los botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el pie de página */
+.footer1 {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer1 a {
+    color: white;
+    margin: 0 10px;
+}
