@@ -21,41 +21,27 @@
 </head>
 
 <body>
-	<div class="parent">
-		<div class="logo">
-			<img src="img/logo/logo_cocina18.png" alt="logo_cocina18"> 
-        </div>
-
-		<div class="encabezado">
-			<h1>
-				<strong>BIENVENIDOS a Cocina 18</strong><br>
-				Un lugar ideal para recetas de todo tipo
-			</h1>
-		</div>
-
-		<div class="login">
-			<a class='login' href="/login">Login</a>
-		</div>
-
+	<header class="encabezado">
 
 		<!--	Menu   -->
-		<div class="menu">
-			<nav>
-				<div id="menu-toggle" class="menu-icon">
-					<div class="bar"></div>
-					<div class="bar"></div>
-					<div class="bar"></div>
-				</div>
-				<ul class="hidden" id="nav-list">
-						<li><a class='list' href="#1">Sobre Cocina 18</a></li>
-						<li><a class='list' href="#2">Recetas</a></li>
-						<li><a class='list' href="#3">Postres</a></li>
-						<li><a class='list' href="#4">Panaderia</a></li>
-						<li><a class='list' href="#5">Eventos y Degustaciones</a></li>
-						<li><a class='list' href="contactsform.html">Contacto</a></li>
-				</ul>
+
+		<div class="logo">
+			<a href="#"><img src="img/logo/logo_cocina18.png" alt="logo_cocina18"></a>
+		</div>
+		<nav>
+			<ul class="nav-list">
+				<li><a class='list' href="#2">Recetas</a></li>
+				<li><a class='list' href="#3">Postres</a></li>
+				<li><a class='list' href="#4">Panaderia</a></li>
+				<li><a class='list' href="contactsform.html">Contacto</a></li>
+			</ul>
 			</nav>
-        </div>
+			<a class='login' href="/login"><button>Login</button></a>
+			<a class='register' href="/register"><button>Register</button></a>
+
+		</header>
+
+	<main class="main-content">
                 <!-- ubicacion google maps -->
                 <div class="maps-responsive">				
                     <iframe
@@ -183,7 +169,7 @@
 			<a class="icon" href="https://www.whatsapp.com" target="_blank"> <i class="fa-brands fa-whatsapp"
 					aria-hidden="true"></i></a>
 		</div>
-	</div>
+	</main>
 </body>
 
 </html>
