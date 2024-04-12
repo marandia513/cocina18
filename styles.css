@@ -47,14 +47,14 @@ body {
 
 .encabezado .nav-list a:hover {
   transform: scale(1.1);
-  background-color: #fabe3d56;
+  background-color: #72716f75;
 }
 
 .encabezado .login button {
   font-weight: 700;
   color: white;
   padding: 9px 25px;
-  background: #8f6c0b;
+  background: #474746;
   border: none;
   border-radius: 50px;
   cursor: pointer;
