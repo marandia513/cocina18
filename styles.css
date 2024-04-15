@@ -48,6 +48,7 @@ body {
 .encabezado .nav-list a:hover {
   transform: scale(1.1);
   background-color: #72716f75;
+  border-radius: 50px;
 }
 
 .encabezado .login button {
