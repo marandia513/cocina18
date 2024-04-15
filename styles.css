@@ -20,7 +20,7 @@ body {
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   display: flex;
 }
 
@@ -65,6 +65,15 @@ body {
   transform: scale(1.1);
 }
 
+/* Estilos para el contenido */
+
+.container1 {
+  margin: 1em 0;
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  gap: 0.5em;
+}
+
 /* Estilos para los artículos */
 article {
   padding: 20px;
@@ -99,13 +108,9 @@ article {
   margin: 0 10px;
 }
 
-
 @media screen and (min-width: 768px) {
-  .encabezado{
+  .encabezado {
     height: auto;
     flex-direction: row;
-  }
-  .logo a img{
-  
   }
 }
