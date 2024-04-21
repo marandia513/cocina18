@@ -1,0 +1,19 @@
+* {
+    margin: 5;
+    padding: 5;
+  }
+  
+  
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #e9e6dbc5;
+  }
+
+  div{
+    position: absolute;
+    width:100px;
+    height:100px;
+    right:500px;
+    top:150px;
+
+}
