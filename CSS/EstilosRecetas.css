@@ -1,0 +1,118 @@
+* {
+    margin: 5;
+    padding: 5;
+  }
+  
+  
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #e9e6dbc5;
+    padding: 2% 5% 5% 2%;
+   
+  }
+
+  div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+ 
+/* Estilos para el encabezado */
+
+.encabezado {
+  padding: 1em;
+  background-color: #83827d;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo a img {
+  height: 90px;
+}
+
+.img {
+  max-width: 100%;
+}
+
+/* estilos para textos */
+p{
+  margin:2%
+
+}
+ /* menu */ 
+
+.encabezado .nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.encabezado .nav-list a {
+  display: flex;
+  font-size: 700;
+  color: white;
+  text-decoration: none;
+  justify-content: space-around;
+  padding: 0.5em;
+  align-items: center;
+}
+
+.encabezado .nav-list a:hover {
+  transform: scale(1.1);
+  background-color: #72716f75;
+  border-radius: 50px;
+}
+
+.encabezado .login button {
+  font-weight: 700;
+  color: white;
+  padding: 9px 25px;
+  background: #474746;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+}
+
+.encabezado .login button:hover {
+  transform: scale(1.1);
+}
+
+/* Estilos para el pie de página */
+
+.footer1 {
+  justify-content:center ;
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  gap: 1em;
+}
+
+.footer1 a {
+  color: white;
+  margin: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .encabezado {
+    flex-direction: row;
+  }
+  .container1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .encabezado {
+    flex-direction: row;
+  }
+  .container1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
