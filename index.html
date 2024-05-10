@@ -7,10 +7,12 @@
     <title>Ollas y fogones</title>
 
     <!-- Fuentes de Google Fonts - Poppins -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" 
-	rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Iconos Font Awesome -->
     <script
@@ -22,7 +24,7 @@
     <link rel="icon" href="./img/Icono.ico" />
 
     <!-- Enlaces a hojas de estilo -->
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
 
     <!--Enlace de API-->
   </head>
@@ -62,46 +64,24 @@
 
       <!---imagenes de recetas-->
       <div class="container1">
-        <article>
-          <h1><a href="./Bondiola.html">Bondiola de cerdo</a></h1>
+        <div class="slider">
           <img src="./Contenido/Bondiola de cerdo al horno.jpg" alt="imagen1" />
-        </article>
-        <article>
-          <h1><a href="Canelones.html">Canelones</a></h1>
-          <img src="./Contenido/Canelones.jpg" alt="imagen2"/>
-        </article>
-        <article>
-          <h1><a href="./Estofado.html">Estofado de carne</a></h1>
-          <img src="./Contenido/Estofado.jpg" alt="imagen3"/>
-        </article>
-        <article>
-          <h1><a href="./CSS/EstilosRecetas.css">Guiso de lentejas</a></h1>
-          <img src="./Contenido/Guiso de lentejas.jpg" alt="imagen4"/>
-        </article>
-        <article>
-          <h1><a href="./CSS/EstilosRecetas.css">Milanesa Napolitana</a></h1>
-          <img src="./Contenido/Milanesa napolitana.jpg" alt="imagen5"/>
-        </article>
-        <article>
-          <h1><a href="./CSS/EstilosRecetas.css">Pastel de carne</a></h1>
-          <img src="./Contenido/Pastel de carne.jpg" alt="imagen6"/>
-        </article>
-        <article>
-          <h1><a href="./Sopa.html">Sopa de pollo</a></h1>
-          <img src="./Contenido/Sopa de pollo con fideos.jpg" alt="imagen7"/>
-        </article>
-        <article>
-          <h1><a href="./Asado.html">Tira de asado</a></h1>
-          <img src="./Contenido/Tira de asado.jpg" alt="imagen8"/>
-        </article>
-        <article>
-          <h1><a href="./CSS/EstilosRecetas.css">Ñoquis con pollo</a></h1>
-          <img src="./Contenido/Ñoquis con pollo.jpg" alt="imagen9"/>
-        </article>
-        <article>
-          <h1><a href="./Fideos.html">Fideos a la Bolognesa</a></h1>
-          <img src="./Contenido/Fideos a la bolognesa.jpg" alt="imagen10" width="300px"/>
-        </article>
+          <img src="./Contenido/Canelones.jpg" alt="imagen2" />
+          <img src="./Contenido/Estofado.jpg" alt="imagen3" />
+          <img src="./Contenido/Guiso de lentejas.jpg" alt="imagen4" />
+          <img src="./Contenido/Milanesa napolitana.jpg" alt="imagen5" />
+          <img src="./Contenido/Pastel de carne.jpg" alt="imagen6" />
+          <img src="./Contenido/Sopa de pollo con fideos.jpg" alt="imagen7" />
+          <img src="./Contenido/Tira de asado.jpg" alt="imagen8" />
+          <img src="./Contenido/Ñoquis con pollo.jpg" alt="imagen9" />
+          <img
+            src="./Contenido/Fideos a la bolognesa.jpg"
+            alt="imagen10"
+            width="300px"
+          />
+        </div>
+        <img class="control prev" src="./Recursos/left_arrow.png" alt="" />
+        <img class="control next" src="./Recursos/right_arrow.png" alt="" />
       </div>
 
       <div class="item2">
@@ -206,7 +186,7 @@
         </article>
       </div>
     </main>
-	<a class="button" href="contactsform.html"> Formulario de contacto </a>
+    <a class="button" href="contactsform.html"> Formulario de contacto </a>
     <div class="footer1">
       Ollas y fogones | 2024
       <br /><br />
@@ -223,5 +203,6 @@
         <i class="fa-brands fa-whatsapp" aria-hidden="true"></i
       ></a>
     </div>
+    <script src="./Js/main.js"></script>
   </body>
 </html>
