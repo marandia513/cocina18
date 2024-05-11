@@ -73,7 +73,7 @@ main {
   transform: scale(1.1);
 }
 
-/* Estilos para el contenido */
+/* Estilos para el contenido de recetas*/
 
 .container1 {
   position: relative;
@@ -86,8 +86,14 @@ main {
   scroll-behavior: smooth;
 }
 
-.container1 .slider img {
+.container1 .slider a img {
   margin: 7px;
+  border-radius: 6px;
+  box-shadow: 0 7px 7px 0 #83827d;
+}
+
+.container1 .slider img:hover {
+  transform: scale(1.1);
 }
 
 .container1 .control {
@@ -104,19 +110,112 @@ main {
 .container1 .prev {
   left: 0;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-1%, -50%);
+  position: absolute;
 }
 
 .container1 .next {
   right: 0;
   top: 50%;
-  transform: translate(50%, -50%);
+  transform: translate(10%, -50%);
 }
-
 
 h3 {
   font-weight: 600;
 }
+
+/* Estilos para el contenido de postres*/
+.container2 {
+  position: relative;
+}
+
+.container2 .slider2 {
+  display: flex;
+  padding: 2px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.container2 .slider2 a img {
+  margin: 7px;
+  border-radius: 6px;
+  box-shadow: 0 7px 7px 0 #83827d;
+}
+
+.container2 .slider2 img:hover {
+  transform: scale(1.1);
+}
+
+.container2 .control2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(185, 177, 161);
+  cursor: pointer;
+  object-fit: cover;
+  padding: 3px;
+}
+
+.container2 .prev2 {
+  left: 0;
+  top: 50%;
+  transform: translate(-1%, -50%);
+  position: absolute;
+}
+
+.container2 .next2 {
+  right: 0;
+  top: 50%;
+  transform: translate(10%, -50%);
+}
+
+/* Estilos para el contenido de panaderia*/
+.container3 {
+  position: relative;
+}
+
+.container3 .slider3 {
+  display: flex;
+  padding: 2px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.container3 .slider3 a img {
+  margin: 7px;
+  border-radius: 6px;
+  box-shadow: 0 7px 7px 0 #83827d;
+}
+
+.container3 .slider3 img:hover {
+  transform: scale(1.1);
+}
+
+.container3 .control3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(185, 177, 161);
+  cursor: pointer;
+  object-fit: cover;
+  padding: 3px;
+}
+
+.container3 .prev3 {
+  left: 0;
+  top: 50%;
+  transform: translate(-1%, -50%);
+  position: absolute;
+}
+
+.container3 .next3 {
+  right: 0;
+  top: 50%;
+  transform: translate(10%, -50%);
+}
+
 
 /* Estilos para los botones */
 .button {
@@ -151,16 +250,10 @@ h3 {
   .encabezado {
     flex-direction: row;
   }
-  .container1 {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 @media screen and (min-width: 1024px) {
   .encabezado {
     flex-direction: row;
-  }
-  .container1 {
-    grid-template-columns: repeat(3, 1fr);
   }
 }
