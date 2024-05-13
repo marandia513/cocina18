@@ -1,22 +1,24 @@
 * {
-    margin: 5;
-    padding: 5;
-  }
-  
-  
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: "Poppins", sans-serif;
-    background-color: #e9e6dbc5;
-    padding: 2% 5% 5% 2%;
-   
-  }
+  font-family: "Poppins", sans-serif;
+  background-color: #e9e6dbc5;
+}
 
-  div{
-    display: flex;
-    justify-content: space-between;
-  }
+div {
+  display: flex;
+  justify-content: space-between;
+}
 
- 
+main {
+  max-width: 95%;
+  min-height: 100vh;
+  margin: auto;
+}
+
 /* Estilos para el encabezado */
 
 .encabezado {
@@ -42,11 +44,10 @@ body {
 }
 
 /* estilos para textos */
-p{
-  margin:2%
-
+p {
+  margin: 2%;
 }
- /* menu */ 
+/* menu */
 
 .encabezado .nav-list {
   list-style: none;
@@ -84,10 +85,28 @@ p{
   transform: scale(1.1);
 }
 
+/* Estilos para el contenido de la página */
+
+article {
+  padding: 30px;
+  display: grid;
+}
+
+
+.video_conteiner {
+  position: relative;
+  display: grid;
+  width: 50%;
+}
+
+.video_conteiner iframe {
+ width: 90vw;
+}
+
 /* Estilos para el pie de página */
 
 .footer1 {
-  justify-content:center ;
+  justify-content: center;
   background-color: #333;
   color: white;
   padding: 1em;
@@ -104,6 +123,14 @@ p{
     flex-direction: row;
   }
   .container1 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .video_conteiner {
+    grid-template-columns: repeat(3);
+  }
+
+  .article {
     grid-template-columns: 1fr 1fr;
   }
 }
