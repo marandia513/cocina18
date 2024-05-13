@@ -87,11 +87,14 @@ p {
 
 /* Estilos para el contenido de la página */
 
-article {
-  padding: 30px;
-  display: grid;
+.Items {
+  flex-direction: column;
 }
 
+article {
+  padding: 30px;
+  justify-content: space-around;
+}
 
 .video_conteiner {
   position: relative;
@@ -100,7 +103,7 @@ article {
 }
 
 .video_conteiner iframe {
- width: 90vw;
+  width: 90vw;
 }
 
 /* Estilos para el pie de página */
@@ -126,12 +129,12 @@ article {
     grid-template-columns: 1fr 1fr;
   }
 
-  .video_conteiner {
-    grid-template-columns: repeat(3);
+  .Items {
+    flex-direction: row;
   }
 
-  .article {
-    grid-template-columns: 1fr 1fr;
+  .video_conteiner {
+    grid-template-columns: repeat(3);
   }
 }
 
