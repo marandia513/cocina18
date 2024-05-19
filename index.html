@@ -1,286 +1,201 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="" />
+    <link rel="icon" type="image/x-icon" href="./img/Icono.ico" />
     <title>Ollas y fogones</title>
 
-    <!-- Fuentes de Google Fonts - Poppins -->
+    <!-- Fuentes de Google Fonts - Roboto y Merriweather -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet" />
 
     <!-- Iconos Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/dfe49f8610.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/dfe49f8610.js" crossorigin="anonymous"></script>
 
     <!-- Iconos de página-->
     <link rel="icon" href="./img/Icono.ico" />
 
     <!-- Enlaces a hojas de estilo -->
     <link rel="stylesheet" href="./CSS/styles.css" />
+</head>
 
-    <!--Enlace de API-->
-  </head>
-
-  <body>
+<body>
     <header class="encabezado">
-      <!--	Menu   -->
-      <div class="logo">
-        <a href="#"><img src="./img/Logo.png" alt="olla_fogones" /></a>
-      </div>
-      <nav class="nav-list">
-        <a href="contactsform.html">Contacto</a>
-        <a href="">Registrate</a>
-        <a class="login" href="/login"><button>login</button></a>
-      </nav>
+        <div class="logo">
+            <a href="#"><img src="./img/Logo.png" alt="olla_fogones"></a>
+        </div>
+        <div class="nav-container">
+            <ul class="nav-list">
+                <li><a href="contactsform.html">Contacto</a></li>
+                <li><a href="registro.html">Regístrate</a></li>
+                <li class="login"><a href="login.html"><button>Login</button></a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="Buscar..." />
+                <button type="button"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
     </header>
     <main>
-      <div class="main-image"></div>
-      <div class="item1">
-        <article>
-          <h3>Sobre Cocina 18</h3>
-          <p>
-            Un recetario es una recopilación cuidadosamente curada de
-            instrucciones detalladas para preparar una amplia variedad de platos
-            deliciosos. Sirve como una guía confiable y creativa para los
-            entusiastas de la cocina, desde principiantes hasta chefs
-            experimentados, brindando inspiración y conocimiento culinario.
-            Cocina 18 destaca por su enfoque innovador, ofreciendo una colección
-            única de recetas que combinan la tradición culinaria con un toque
-            contemporáneo. Con ingredientes frescos y técnicas accesibles,
-            Cocina 18 transforma cada experiencia culinaria en una aventura
-            emocionante y satisfactoria. ¡Descubre el arte de cocinar con Cocina
-            18 y eleva tus habilidades gastronómicas a nuevas alturas!
-          </p>
-        </article>
-      </div>
+        <div class="main-image"></div>
+        <div class="item1">
+            <article>
+                <h3>Sobre Cocina 18</h3>
+                <p>
+                    Un recetario es una recopilación cuidadosamente curada de instrucciones detalladas para preparar una amplia variedad de platos deliciosos. Sirve como una guía confiable y creativa para los entusiastas de la cocina, desde principiantes hasta chefs experimentados.
+                </p>
+                <p>
+                    Cocina 18 destaca por su enfoque innovador, ofreciendo una colección única de recetas que combinan la tradición culinaria con un toque contemporáneo. Con ingredientes frescos y técnicas accesibles, transforma cada experiencia culinaria en una aventura emocionante y satisfactoria.
+                </p>
+                <p>
+                    ¡Descubre el arte de cocinar con Cocina 18 y eleva tus habilidades gastronómicas a nuevas alturas!
+                </p>
+            </article>
+        </div>
 
-      <!---imagenes de recetas-->
-      <div class="container1">
-        <div class="slider">
-          <a href="./Bondiola.html"
-            ><img
-              src="./Contenido/Bondiola de cerdo al horno.jpg"
-              alt="imagen1"
-          /></a>
-          <a href="./Canelones.html"
-            ><img src="./Contenido/Canelones.jpg" alt="imagen2"
-          /></a>
-          <a href="./Estofado.html"
-            ><img src="./Contenido/Estofado.jpg" alt="imagen3" />
-          </a>
-          <a href="./Guiso.html"
-            ><img src="./Contenido/Guiso de lentejas.jpg" alt="imagen4"
-          /></a>
-          <a href="./Milanesa.html"
-            ><img src="./Contenido/Milanesa napolitana.jpg" alt="imagen5"
-          /></a>
-          <a href="./Pastel.html"
-            ><img src="./Contenido/Pastel de carne.jpg" alt="imagen6"
-          /></a>
-          <a href="./Sopa.html"
-            ><img src="./Contenido/Sopa de pollo con fideos.jpg" alt="imagen7"
-          /></a>
-          <a href="./Asado.html"
-            ><img src="./Contenido/Tira de asado.jpg" alt="imagen8"
-          /></a>
-          <a href="./Ñoquis.html"
-            ><img src="./Contenido/Ñoquis con pollo.jpg" alt="imagen9"
-          /></a>
-          <a href="./Fideos.html"
-            ><img
-              src="./Contenido/Fideos a la bolognesa.jpg"
-              alt="imagen10"
-              width="390px"
-          /></a>
+        <!---imagenes de recetas-->
+        <div class="container1">
+            <div class="slider">
+                <a href="./htmlasociadas/Bondiola.html"><img src="./Contenido/Bondiola de cerdo al horno.jpg" alt="imagen1" /></a>
+                <a href="./htmlasociadas/Canelones.html"><img src="./Contenido/Canelones.jpg" alt="imagen2" /></a>
+                <a href="./htmlasociadas/Estofado.html"><img src="./Contenido/Estofado.jpg" alt="imagen3" /></a>
+                <a href="./htmlasociadas/Guiso.html"><img src="./Contenido/Guiso de lentejas.jpg" alt="imagen4" /></a>
+                <a href="./htmlasociadas/Milanesa.html"><img src="./Contenido/Milanesa napolitana.jpg" alt="imagen5" /></a>
+                <a href="./htmlasociadas/Pastel.html"><img src="./Contenido/Pastel de carne.jpg" alt="imagen6" /></a>
+                <a href="./htmlasociadas/Sopa.html"><img src="./Contenido/Sopa de pollo con fideos.jpg" alt="imagen7" /></a>
+                <a href="./htmlasociadas/Asado.html"><img src="./Contenido/Tira de asado.jpg" alt="imagen8" /></a>
+                <a href="./htmlasociadas/Ñoquis.html"><img src="./Contenido/Ñoquis con pollo.jpg" alt="imagen9" /></a>
+                <a href="./htmlasociadas/Fideos.html"><img src="./Contenido/Fideos a la bolognesa.jpg" alt="imagen10" width="390px" /></a>
+            </div>
+            <img class="control prev" src="./Recursos/left_arrow.png" alt="" />
+            <img class="control next" src="./Recursos/right_arrow.png" alt="" />
         </div>
-        <img class="control prev" src="./Recursos/left_arrow.png" alt="" />
-        <img class="control next" src="./Recursos/right_arrow.png" alt="" />
-      </div>
 
-      <div class="item2">
-        <article>
-          <h3>Recetas - Delicias Culinarias en Cada Bocado</h3>
-          <p>
-            Las "Delicias Culinarias" son mucho más que simples recetas; son una
-            ventana hacia un mundo de sabores y experiencias gastronómicas
-            extraordinarias. Cada receta es una obra maestra culinaria
-            cuidadosamente diseñada, desde clásicos reconfortantes hasta
-            creaciones innovadoras que despiertan los sentidos. Con
-            instrucciones claras y detalladas, estas delicias culinarias invitan
-            a los cocineros de todos los niveles a explorar y experimentar en la
-            cocina, ofreciendo una oportunidad para crear momentos inolvidables
-            alrededor de la mesa. Descubre la magia de la cocina con "Delicias
-            Culinarias" y déjate llevar por un viaje culinario lleno de sabor,
-            creatividad y alegría.
-          </p>
-        </article>
-      </div>
-      <div class="item3">
-        <article>
-          <h3>Postres</h3>
-          <p>
-            Los "Caprichos Dulces" son mucho más que simples recetas de postres;
-            son una invitación a un mundo de dulzura y deleite. Cada receta es
-            una obra de arte culinaria cuidadosamente elaborada, desde clásicos
-            reconfortantes hasta creaciones innovadoras que despiertan los
-            sentidos. Con instrucciones claras y detalladas, estos caprichos
-            dulces invitan a los amantes de los postres a explorar y
-            experimentar en la cocina, ofreciendo una oportunidad para crear
-            momentos inolvidables de indulgencia y placer. Descubre la magia de
-            la repostería con "Caprichos Dulces" y déjate llevar por un viaje
-            culinario lleno de sabor, creatividad y satisfacción.
-          </p>
-        </article>
-      </div>
-      <!---imagenes de postres-->
-      <div class="container2">
-        <div class="slider2">
-          <a href="#"
-            ><img
-              src="./Contenido/Postres/Chocotorta con crema de leche.png"
-              alt="imagenpostre1"
-          /></a>
-          <a href="#"
-            ><img
-              src="./Contenido/Postres/Flan de cafe sin horno.png"
-              alt="imagenpostre2"
-          /></a>
-          <a href="#"
-            ><img
-              src="./Contenido/Postres/Helado casero de fresa.png"
-              alt="imagenpostre3"
-            />
-          </a>
-          <a href="#"
-            ><img
-              src="./Contenido/Postres/Pastelitos de batata.png"
-              alt="imagenpostre4"
-          /></a>
-          <a href="#"
-            ><img
-              src="./Contenido/Postres/Torta de ricota sin harina.png"
-              alt="imagenpostre5"
-          /></a>
-          <a href="#"
-            ><img
-              src="./Contenido/Postres/Layer cake con frosting de queso.png"
-              alt="imagenpostre6"
-          /></a>
+        <div class="item2">
+            <article>
+                <h3>Recetas - Delicias Culinarias en Cada Bocado</h3>
+                <p>
+                    Las "Delicias Culinarias" son mucho más que simples recetas. Son una ventana hacia un mundo de sabores y experiencias gastronómicas extraordinarias. Cada receta es una obra maestra culinaria cuidadosamente diseñada.
+                </p>
+                <p>
+                    Desde clásicos reconfortantes hasta creaciones innovadoras que despiertan los sentidos. Con instrucciones claras y detalladas, estas delicias culinarias invitan a los cocineros de todos los niveles a explorar y experimentar en la cocina.
+                </p>
+                <p>
+                    Ofrecen una oportunidad para crear momentos inolvidables alrededor de la mesa. Descubre la magia de la cocina con "Delicias Culinarias" y déjate llevar por un viaje culinario lleno de sabor, creatividad y alegría.
+                </p>
+            </article>
         </div>
-        <img class="control2 prev2" src="./Recursos/left_arrow.png" alt="" />
-        <img class="control2 next2" src="./Recursos/right_arrow.png" alt="" />
-      </div>
-      <div class="item4">
-        <article>
-          <h3>Gustos Panaderos</h3>
-          <p>
-            "Panadería Artesanal" es más que una colección de recetas de pan; es
-            una ventana hacia el mundo de los sabores y aromas únicos que solo
-            la panadería artesanal puede ofrecer. Cada receta es una cuidadosa
-            mezcla de tradición y creatividad, desde clásicos como baguettes y
-            croissants hasta creaciones innovadoras que despiertan los sentidos.
-            Con instrucciones detalladas y técnicas probadas, estas recetas
-            invitan a panaderos de todos los niveles a explorar y experimentar
-            en la cocina, creando panes que deleitan el paladar y alimentan el
-            alma. Descubre el arte de la panadería con "Panadería Artesanal" y
-            sumérgete en un mundo de sabores auténticos y momentos compartidos
-            alrededor de la mesa.
-          </p>
-        </article>
-      </div>
-      <!---imagenes de salones para panaderia-->
-      <div class="container3">
-        <div class="slider3">
-          <a href="#"
-            ><img
-              src="./Contenido/Panaderia/Budin de pan en licuadora.png"
-              alt="imagenpanaderia1"
-          /></a>
-          <a href="#"
-            ><img
-              src="./Contenido/Panaderia/Chipa de queso.png"
-              alt="imagenpanaderia2"
-          /></a>
-          <a href="#"
-            ><img
-              src="./Contenido/Panaderia/Pan dulce de leche.png"
-              alt="imagenpanaderia3"
-            />
-          </a>
-          <a href="#"
-            ><img
-              src="./Contenido/Panaderia/Pan integral con levadura fresca.png"
-              alt="imagenpanaderia4"
-          /></a>
-          <a href="#"
-            ><img
-              src="./Contenido/Panaderia/Pan relleno de jamon y queso.png"
-              alt="imagenpanaderia5"
-          /></a>
-          <a href="#"
-            ><img
-              src="./Contenido/Panaderia/Paneton sin pasas.png"
-              alt="imagenpanaderia6"
-          /></a>
+
+        <div class="item3">
+            <article>
+                <h3>Postres</h3>
+                <p>
+                    Los "Caprichos Dulces" son mucho más que simples recetas de postres. Son una invitación a un mundo de dulzura y deleite. Cada receta es una obra de arte culinaria cuidadosamente elaborada.
+                </p>
+                <p>
+                    Desde clásicos reconfortantes hasta creaciones innovadoras que despiertan los sentidos. Con instrucciones claras y detalladas, estos caprichos dulces invitan a los amantes de los postres a explorar y experimentar en la cocina.
+                </p>
+                <p>
+                    Ofrecen una oportunidad para crear momentos inolvidables de indulgencia y placer. Descubre la magia de la repostería con "Caprichos Dulces" y déjate llevar por un viaje culinario lleno de sabor, creatividad y satisfacción.
+                </p>
+            </article>
         </div>
-        <img class="control3 prev3" src="./Recursos/left_arrow.png" alt="" />
-        <img class="control3 next3" src="./Recursos/right_arrow.png" alt="" />
-      </div>
-      
-      <div class="item5">
-        <article>
-          <h3>Degustaciones</h3>
-          <p>
-            "Únete a nuestras degustaciones en 'Sabor Selecto': una experiencia
-            única de sabores artesanales. Desde delicias culinarias hasta
-            caprichos dulces y panadería artesanal, cada bocado es un viaje
-            sensorial que cautiva y deleita. ¡Descubre un mundo de sabores
-            auténticos con nosotros!"
-          </p>
-        </article>
-      </div>
-      <div class="detalle5">
-        <img src="./img/Logo.png" alt="logo" rel="" />
-      </div>
-      <div class="item6">
-        <article>
-          <h3>Contacto - Únete a la Experiencia Ollas y fogones</h3>
-          <p>
-            "¡Explora un mundo de sabores en nuestro sitio web! En 'Sabor
-            Selecto', te invitamos a descubrir una variedad única de delicias
-            culinarias, caprichos dulces y panadería artesanal. ¡Visítanos ahora
-            para inspirarte y disfrutar de experiencias gastronómicas
-            inolvidables!"
-          </p>
-          <br />
-        </article>
-      </div>
+
+        <!---imagenes de postres-->
+        <div class="container2">
+            <div class="slider2">
+                <a href="#"><img src="./Contenido/Postres/Chocotorta con crema de leche.png" alt="imagenpostre1" /></a>
+                <a href="#"><img src="./Contenido/Postres/Flan de cafe sin horno.png" alt="imagenpostre2" /></a>
+                <a href="#"><img src="./Contenido/Postres/Helado casero de fresa.png" alt="imagenpostre3" /></a>
+                <a href="#"><img src="./Contenido/Postres/Pastelitos de batata.png" alt="imagenpostre4" /></a>
+                <a href="#"><img src="./Contenido/Postres/Torta de ricota sin harina.png" alt="imagenpostre5" /></a>
+                <a href="#"><img src="./Contenido/Postres/Layer cake con frosting de queso.png" alt="imagenpostre6" /></a>
+            </div>
+            <img class="control2 prev2" src="./Recursos/left_arrow.png" alt="" />
+            <img class="control2 next2" src="./Recursos/right_arrow.png" alt="" />
+        </div>
+
+        <div class="item4">
+            <article>
+                <h3>Gustos Panaderos</h3>
+                <p>
+                    "Panadería Artesanal" es más que una colección de recetas de pan. Es una ventana hacia el mundo de los sabores y aromas únicos que solo la panadería artesanal puede ofrecer.
+                </p>
+                <p>
+                    Cada receta es una cuidadosa mezcla de tradición y creatividad. Desde clásicos como baguettes y croissants hasta creaciones innovadoras que despiertan los sentidos.
+                </p>
+                <p>
+                    Con instrucciones detalladas y técnicas probadas, estas recetas invitan a panaderos de todos los niveles a explorar y experimentar en la cocina.
+                </p>
+                <p>
+                    Crean panes que deleitan el paladar y alimentan el alma. Descubre el arte de la panadería con "Panadería Artesanal" y sumérgete en un mundo de sabores auténticos y momentos compartidos alrededor de la mesa.
+                </p>
+            </article>
+        </div>
+
+        <!---imagenes de panadería-->
+        <div class="container3">
+            <div class="slider3">
+                <a href="#"><img src="./Contenido/Panaderia/Budin de pan en licuadora.png" alt="imagenpanaderia1" /></a>
+                <a href="#"><img src="./Contenido/Panaderia/Chipa de queso.png" alt="imagenpanaderia2" /></a>
+                <a href="#"><img src="./Contenido/Panaderia/Pan dulce de leche.png" alt="imagenpanaderia3" /></a>
+                <a href="#"><img src="./Contenido/Panaderia/Pan integral con levadura fresca.png" alt="imagenpanaderia4" /></a>
+                <a href="#"><img src="./Contenido/Panaderia/Pan relleno de jamon y queso.png" alt="imagenpanaderia5" /></a>
+                <a href="#"><img src="./Contenido/Panaderia/Paneton sin pasas.png" alt="imagenpanaderia6" /></a>
+            </div>
+            <img class="control3 prev3" src="./Recursos/left_arrow.png" alt="" />
+            <img class="control3 next3" src="./Recursos/right_arrow.png" alt="" />
+        </div>
+
+        <div class="item5">
+            <article>
+                <h3>Degustaciones</h3>
+                <p>
+                    Únete a nuestras degustaciones en 'Sabor Selecto': una experiencia única de sabores artesanales.
+                </p>
+                <p>
+                    Desde delicias culinarias hasta caprichos dulces y panadería artesanal, cada bocado es un viaje sensorial que cautiva y deleita.
+                </p>
+                <p>
+                    ¡Descubre un mundo de sabores auténticos con nosotros!
+                </p>
+            </article>
+        </div>
+
+        <div class="detalle5">
+            <img src="./img/Logo.png" alt="logo" rel="" />
+        </div>
+
+        <div class="item6">
+            <article>
+                <h3>Contacto - Únete a la Experiencia Ollas y fogones</h3>
+            </article>
+        </div>
+
+        <!-- Marquesina -->
+        <div class="marquee">
+            <p>¡Explora un mundo de sabores en nuestro sitio web! En 'Sabor Selecto', te invitamos a descubrir una variedad única de delicias culinarias, caprichos dulces y panadería artesanal. ¡Visítanos ahora para inspirarte y disfrutar de experiencias gastronómicas inolvidables!</p>
+        </div>
     </main>
-    <a class="button" href="contactsform.html"> Formulario de contacto </a>
+    <a class="button" href="contactsform.html">Formulario de contacto</a>
     <div class="footer1">
-      Ollas y fogones | 2024
-      <br /><br />
-      <a class="icon" href="https://www.tweeter.com" target="_blank">
-        <i class="fa fa-twitter" aria-hidden="true"></i
-      ></a>
-      <a class="icon" href="https://www.instagram.com" target="_blank">
-        <i class="fa fa-instagram" aria-hidden="true"></i
-      ></a>
-      <a class="icon" href="https://www.facebook.com" target="_blank">
-        <i class="fa-brands fa-facebook" aria-hidden="true"></i
-      ></a>
-      <a class="icon" href="https://www.whatsapp.com" target="_blank">
-        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i
-      ></a>
+        Ollas y fogones | 2024
+        <br /><br />
+        <a class="icon" href="https://www.tweeter.com" target="_blank">
+            <i class="fa fa-twitter" aria-hidden="true"></i
+        ></a>
+        <a class="icon" href="https://www.instagram.com" target="_blank">
+            <i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a class="icon" href="https://www.facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i
+        ></a>
+        <a class="icon" href="https://www.whatsapp.com" target="_blank">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i
+        ></a>
     </div>
     <script src="./Js/main.js"></script>
-  </body>
+</body>
 </html>
