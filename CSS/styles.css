@@ -213,7 +213,7 @@ main {
   border-radius: 50px;
 }
 
-.nav-list .login button {
+.nav-list .login span {
   font-weight: 700;
   color: white;
   padding: 9px 25px;
@@ -224,7 +224,7 @@ main {
   transition: transform 1.5s ease, padding 1.5s ease;
 }
 
-.nav-list .login button:hover {
+.nav-list .login span:hover {
   transform: scale(1.1);
 }
 
