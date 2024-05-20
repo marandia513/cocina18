@@ -348,7 +348,7 @@ main {
 }
 
 /* Estilos para los botones */
-.form {
+.button {
   display: inline-block;
   padding: 10px 20px;
   background-color: #4caf50;
@@ -357,7 +357,7 @@ main {
   border: none;
 }
 
-.form:hover {
+.button :hover {
   background-color: #45a049;
 }
 
