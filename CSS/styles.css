@@ -374,7 +374,13 @@ main {
   color: white;
   margin: 0 10px;
 }
+/* logo de pie de página*/
 
+.detalle5{
+  
+  display: block;
+ margin: 5em
+}
 /* Ajustes de contenedores para compensar el encabezado fijo */
 .container1, .container2, .container3 {
   margin-top: 2em;
